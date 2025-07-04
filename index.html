@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Claim Fields Comparison</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        h2 {
+            color: #0056b3;
+            border-bottom: 2px solid #0056b3;
+            padding-bottom: 10px;
+            margin-top: 30px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 40px;
+            background-color: #fff;
+            box-shadow: 0 2px 3px rgba(0,0,0,0.1);
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #e9ecef;
+            font-weight: bold;
+            color: #495057;
+        }
+        tr:nth-child(even) {
+            background-color: #f8f9fa;
+        }
+        tr:hover {
+            background-color: #e2e6ea;
+        }
+        td:first-child {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Claim Fields Comparison</h1>
+
+    <h2>1. Personal Accident Claim Form - Claim Fields Comparison</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Claim Field</th>
+                <th>HDFC ERGO</th>
+                <th>TATA AIG</th>
+                <th>Future Generali Insurance</th>
+                <th>Aditya Birla Health Insurance</th>
+                <th>Bajaj Allianz</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td>Insured’s Name</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Insured’s Address</td><td>Yes</td><td>Yes</td><td>Yes</td><td>-</td><td>Yes</td></tr>
+            <tr><td>Mobile No</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Alternate No</td><td>Yes</td><td>-</td><td>-</td><td>-</td><td>Yes</td></tr>
+            <tr><td>Email Id</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Policy Period</td><td>Yes</td><td>Yes</td><td>-</td><td>-</td><td>-</td></tr>
+            <tr><td>Policy Number</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Insured Profession</td><td>Yes</td><td>-</td><td>Yes</td><td>Yes (Occupation)</td><td>-</td></tr>
+            <tr><td>Was accident related to insured’s occupation?</td><td>Yes</td><td>-</td><td>-</td><td>Yes (Did the accident happen while working?)</td><td>-</td></tr>
+            <tr><td>Type of claim</td><td>Yes</td><td>-</td><td>Yes</td><td>-</td><td>Yes</td></tr>
+            <tr><td>Date of Accident</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Time of Accident</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes (Time of Injury/Death)</td><td>Yes</td></tr>
+            <tr><td>Place accident occurred</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes (Place/Address of Accident/Death)</td><td>Yes</td></tr>
+            <tr><td>Particulars/Description of accident</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes (Details and nature of accident)</td><td>Yes (Nature of Accident, Cause of Accident)</td></tr>
+            <tr><td>Reported to Police station?</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes (Was FIR registered?)</td></tr>
+            <tr><td>Police station Name</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes (Name and Address of Police Station)</td><td>Yes</td></tr>
+            <tr><td>FIR Number</td><td>-</td><td>Yes</td><td>Yes</td><td>-</td><td>Yes</td></tr>
+            <tr><td>Were you under influence of alcohol or drugs?</td><td>-</td><td>Yes</td><td>-</td><td>Yes (Cause: Substance abuse / Alcohol abuse)</td><td>-</td></tr>
+            <tr><td>Witness Details</td><td>-</td><td>Yes (Name & Contact Number of Witness(es))</td><td>-</td><td>Yes</td><td>Yes (Name and Contact of Witness)</td></tr>
+            <tr><td>Hospital Name and Address</td><td>Yes</td><td>Yes</td><td>-</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Date of Admission</td><td>Yes</td><td>Yes</td><td>-</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Date of Discharge</td><td>Yes</td><td>Yes</td><td>-</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Nature of injuries</td><td>Yes</td><td>Yes</td><td>-</td><td>Yes (Type of Injury)</td><td>Yes</td></tr>
+            <tr><td>Treating Doctor's Name</td><td>Yes</td><td>-</td><td>Yes (CASUALTY DOCTOR Name)</td><td>-</td><td>Yes</td></tr>
+            <tr><td>Treating Doctor's Contact Number</td><td>Yes</td><td>-</td><td>Yes (CASUALTY DOCTOR Contact No)</td><td>-</td><td>Yes</td></tr>
+            <tr><td>Details of permanent disablement</td><td>Yes</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+            <tr><td>Dates of Temporary disablement</td><td>Yes</td><td>-</td><td>Yes (Total Confinement Period)</td><td>-</td><td>-</td></tr>
+            <tr><td>Date insured able to return to work</td><td>Yes</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+            <tr><td>Claimant’s Name</td><td>Yes</td><td>-</td><td>Yes (Nominee Name)</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Relationship to Insured</td><td>Yes</td><td>Yes (Nominee Relationship with Insured)</td><td>-</td><td>Yes (Relationship with Proposer)</td><td>Yes</td></tr>
+            <tr><td>Claimant's Address</td><td>Yes</td><td>-</td><td>-</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Claimant's Mobile / Alternate No.</td><td>Yes</td><td>-</td><td>Yes (Nominee’s Mobile No)</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Claimant's Email ID</td><td>Yes</td><td>-</td><td>Yes (Nominee’s E Mail ID)</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Bank Account Holder Name</td><td>Yes (Insured’s Name as per Bank Account)</td><td>Yes (Name of Account Holder)</td><td>-</td><td>Yes (Name of Insured)</td><td>-</td></tr>
+            <tr><td>Bank Account Number</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>-</td></tr>
+            <tr><td>IFSC Code</td><td>Yes</td><td>Yes</td><td>-</td><td>Yes</td><td>-</td></tr>
+            <tr><td>Bank Branch Name</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>-</td></tr>
+            <tr><td>Cancelled Cheque / Bank Passbook Copy</td><td>Yes</td><td>Yes</td><td>-</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Date of Birth (Insured)</td><td>-</td><td>Yes</td><td>-</td><td>Yes</td><td>-</td></tr>
+            <tr><td>Gender</td><td>-</td><td>Yes</td><td>-</td><td>Yes</td><td>-</td></tr>
+            <tr><td>Occupation</td><td>-</td><td>-</td><td>Yes</td><td>Yes</td><td>-</td></tr>
+            <tr><td>State</td><td>-</td><td>-</td><td>Yes</td><td>-</td><td>Yes</td></tr>
+            <tr><td>Pincode</td><td>-</td><td>-</td><td>Yes</td><td>-</td><td>Yes</td></tr>
+            <tr><td>FIR/MLC attached?</td><td>-</td><td>-</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Gross Annual Income</td><td>-</td><td>-</td><td>-</td><td>Yes</td><td>-</td></tr>
+            <tr><td>Marital Status</td><td>-</td><td>-</td><td>-</td><td>Yes</td><td>-</td></tr>
+            <tr><td>Name of Employer</td><td>-</td><td>-</td><td>-</td><td>Yes</td><td>-</td></tr>
+            <tr><td>Treatment Details (Are you still under treatment?)</td><td>-</td><td>-</td><td>-</td><td>-</td><td>Yes</td></tr>
+            <tr><td>Documents to be Submitted Checklist</td><td>-</td><td>-</td><td>-</td><td>-</td><td>Yes</td></tr>
+        </tbody>
+    </table>
+
+    <h2>2. Critical Illness Claim Form - Claim Fields Comparison</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Claim Field</th>
+                <th>HDFC ERGO</th>
+                <th>TATA AIG</th>
+                <th>Future Generali Insurance</th>
+                <th>Aditya Birla Capital</th>
+                <th>Bajaj Allianz</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td>Policy Number</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Insured’s Name</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes (Policyholder Name)</td></tr>
+            <tr><td>Insured’s Address</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>-</td></tr>
+            <tr><td>Mobile No</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes (Contact Number)</td><td>Yes</td></tr>
+            <tr><td>Alternate No</td><td>Yes</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+            <tr><td>Email Id</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Policy Period</td><td>Yes</td><td>Yes</td><td>-</td><td>-</td><td>-</td></tr>
+            <tr><td>Insured Profession</td><td>Yes</td><td>-</td><td>-</td><td>Yes (Occupation)</td><td>-</td></tr>
+            <tr><td>Have you previously suffered from/received treatment for related illness?</td><td>Yes</td><td>Yes (Details of Treatment for Similar or Related Illness)</td><td>-</td><td>Yes (Have you ever had the same or similar condition in the past?)</td><td>-</td></tr>
+            <tr><td>Date disease/illness first detected</td><td>Yes</td><td>Yes (Date of First Diagnosis)</td><td>Yes (Diagnosis Date)</td><td>Yes (Date of First Symptom, Date of Diagnosis)</td><td>Yes (Date of first diagnosis)</td></tr>
+            <tr><td>Details of treatment received</td><td>Yes</td><td>-</td><td>-</td><td>Yes (details of diagnosis, date, and treatment received)</td><td>Yes (Treatment undertaken)</td></tr>
+            <tr><td>Details of Treating Doctor (Name, Address, Qualification, Email, Contact)</td><td>Yes</td><td>Yes (Family Doctor Details, Specialist Consulted)</td><td>Yes (Name & Address of Doctor Consulted, Details of Family Doctor)</td><td>Yes (Name of Diagnosing Doctor, Address of Diagnosing Doctor, Name & Address of Doctor consulted earlier)</td><td>Yes (Name of Pathology Lab/Doctor)</td></tr>
+            <tr><td>Names & contact details of all consulted doctors</td><td>Yes</td><td>-</td><td>Yes (Name and address of the doctors who had attended / the hospitals where the Life Assured was treated during last five years)</td><td>-</td><td>-</td></tr>
+            <tr><td>Type of Critical Illness (specific conditions)</td><td>Yes</td><td>Yes</td><td>-</td><td>Yes (Name of Critical Illness Diagnosed)</td><td>Yes (Claim Type)</td></tr>
+            <tr><td>Hospital Name and Address</td><td>-</td><td>Yes</td><td>-</td><td>Yes (Hospital Name & Address where diagnosis was confirmed)</td><td>Yes (Hospital Address & Contact Number)</td></tr>
+            <tr><td>Date of Admission</td><td>-</td><td>Yes</td><td>-</td><td>-</td><td>-</td></tr>
+            <tr><td>Date of Discharge</td><td>-</td><td>Yes</td><td>-</td><td>-</td><td>-</td></tr>
+            <tr><td>Consent for Mode of Claim Payment (Beneficiary Name, Mode, Bank Account Details)</td><td>Yes</td><td>-</td><td>-</td><td>Yes (BANK DETAILS FOR CLAIM PAYMENT)</td><td>Yes (NEFT Mandate (Bank Details))</td></tr>
+            <tr><td>Bank Account Number</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Bank Name</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Branch Name</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>IFSC Code</td><td>Yes</td><td>Yes</td><td>-</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Cancelled Cheque</td><td>-</td><td>Yes</td><td>-</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Date of Birth (Insured)</td><td>-</td><td>Yes</td><td>-</td><td>Yes</td><td>-</td></tr>
+            <tr><td>Gender</td><td>-</td><td>Yes</td><td>-</td><td>Yes</td><td>-</td></tr>
+            <tr><td>Nominee Name</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+            <tr><td>Nominee Relationship with Insured</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+            <tr><td>Symptoms/Complaints</td><td>-</td><td>Yes (Type of Symptoms)</td><td>Yes</td><td>Yes (Date of First Symptom)</td><td>Yes (Nature of the complaint and symptoms)</td></tr>
+            <tr><td>Duration of Symptom Complaint</td><td>-</td><td>-</td><td>Yes</td><td>-</td><td>-</td></tr>
+            <tr><td>Date of First Consultation</td><td>-</td><td>Yes</td><td>Yes</td><td>Yes</td><td>-</td></tr>
+            <tr><td>Any Other Disease/Condition Affecting Present Condition</td><td>-</td><td>Yes</td><td>-</td><td>-</td><td>-</td></tr>
+            <tr><td>Nature of Treatment/Surgical Procedure</td><td>-</td><td>Yes</td><td>-</td><td>-</td><td>Yes (Treatment undertaken)</td></tr>
+            <tr><td>Is Illness Due to Any Pre-Existing Conditions?</td><td>-</td><td>Yes</td><td>-</td><td>-</td><td>-</td></tr>
+            <tr><td>Are you covered under any other insurance policy?</td><td>-</td><td>Yes</td><td>-</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Policy Number (Other Insurance)</td><td>-</td><td>Yes</td><td>-</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Insurer’s Name (Other Insurance)</td><td>-</td><td>Yes</td><td>-</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Tax Resident of any country other than India?</td><td>-</td><td>-</td><td>-</td><td>-</td><td>Yes</td></tr>
+            <tr><td>Total taxable income exceed INR 1 crore?</td><td>-</td><td>-</td><td>-</td><td>-</td><td>Yes</td></tr>
+            <tr><td>Life Assured’s Habits (Alcohol, Tobacco, Drugs)</td><td>-</td><td>-</td><td>-</td><td>-</td><td>Yes</td></tr>
+            <tr><td>Employment Impact (Away from work due to illness?)</td><td>-</td><td>-</td><td>-</td><td>-</td><td>Yes</td></tr>
+            <tr><td>Required Supporting Documents Checklist</td><td>-</td><td>-</td><td>-</td><td>-</td><td>Yes</td></tr>
+        </tbody>
+    </table>
+
+    <h2>3. Hospital Cash Claim Form - Claim Fields Comparison</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Claim Field</th>
+                <th>Bajaj Allianz</th>
+                <th>Tata AIG</th>
+                <th>SBI Life - Hospital Cash</th>
+                <th>Reliance</th>
+                <th>Star Hospital</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td>Name of the Insured</td><td>Yes</td><td>Yes</td><td>Yes (Name of the Proposer)</td><td>Yes (Principal Insured)</td><td>Yes (Proposer Name)</td></tr>
+            <tr><td>Client ID</td><td>Yes</td><td>-</td><td>Yes (Customer ID)</td><td>-</td><td>-</td></tr>
+            <tr><td>Name of the Insured person (claim is made for)</td><td>Yes</td><td>Yes (Name of the Injured Person)</td><td>Yes (Name of life assured)</td><td>Yes</td><td>Yes (Insured Person-1 to Insured Person-5 Name)</td></tr>
+            <tr><td>Age of Insured person</td><td>Yes</td><td>Yes</td><td>-</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Relationship with the insured</td><td>Yes</td><td>-</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Nature of the illness/disease contracted</td><td>Yes</td><td>Yes (Details of the Sickness)</td><td>-</td><td>Yes</td><td>Yes (Ailment for which Claim was made)</td></tr>
+            <tr><td>Date of injury sustained or disease/illness first detected</td><td>Yes</td><td>Yes (Time and Date Diagnosis)</td><td>-</td><td>Yes</td><td>-</td></tr>
+            <tr><td>Name & address of the attending Medical Practitioner</td><td>Yes</td><td>Yes</td><td>-</td><td>Yes</td><td>Yes (Family Physician's Name)</td></tr>
+            <tr><td>Name & address of the Hospital/Nursing Home</td><td>Yes</td><td>Yes</td><td>-</td><td>Yes</td><td>-</td></tr>
+            <tr><td>Date and time of admission</td><td>Yes</td><td>Yes</td><td>-</td><td>Yes</td><td>-</td></tr>
+            <tr><td>Date and time of discharge</td><td>Yes</td><td>Yes</td><td>-</td><td>Yes</td><td>-</td></tr>
+            <tr><td>Do you have any other insurance cover covering Hospital Cash Allowance?</td><td>Yes</td><td>-</td><td>-</td><td>Yes</td><td>Yes (Existing Insurance Coverage with us and/or any other company)</td></tr>
+            <tr><td>Signature of the Insured</td><td>Yes</td><td>Yes</td><td>-</td><td>Yes</td><td>Yes (Signature/Thumb impression of the proposer)</td></tr>
+            <tr><td>Address</td><td>Yes</td><td>Yes</td><td>Yes (Mailing Address)</td><td>Yes (Correspondence Address)</td><td>Yes (Current Address, Permanent Address)</td></tr>
+            <tr><td>Date</td><td>Yes</td><td>Yes</td><td>-</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Policy No.</td><td>-</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Claim No.</td><td>-</td><td>Yes</td><td>-</td><td>-</td><td>-</td></tr>
+            <tr><td>Phone (OR) Mobile</td><td>-</td><td>Yes</td><td>Yes</td><td>-</td><td>Yes</td></tr>
+            <tr><td>Email Id</td><td>-</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Period of hospitalization</td><td>-</td><td>Yes</td><td>-</td><td>-</td><td>-</td></tr>
+            <tr><td>Amount Of Expenses (In hospital cash)</td><td>-</td><td>Yes</td><td>-</td><td>Yes (Hospital Cash Benefit)</td><td>Yes (Hospital Cash Amount (Per Day) Opted Rs.)</td></tr>
+            <tr><td>Police Authorities informed of accident?</td><td>-</td><td>Yes</td><td>-</td><td>Yes</td><td>-</td></tr>
+            <tr><td>Attending Physicians statement</td><td>-</td><td>Yes</td><td>-</td><td>Yes</td><td>-</td></tr>
+            <tr><td>Policy Number (Proposer)</td><td>-</td><td>-</td><td>Yes</td><td>-</td><td>-</td></tr>
+            <tr><td>Proposal No.</td><td>-</td><td>-</td><td>Yes</td><td>-</td><td>Yes</td></tr>
+            <tr><td>Proposal Date</td><td>-</td><td>-</td><td>Yes</td><td>-</td><td>-</td></tr>
+            <tr><td>Customer ID</td><td>-</td><td>-</td><td>Yes</td><td>-</td><td>-</td></tr>
+            <tr><td>Premium Periodicity</td><td>-</td><td>-</td><td>Yes</td><td>-</td><td>-</td></tr>
+            <tr><td>Gender</td><td>-</td><td>-</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Nominee Details</td><td>-</td><td>-</td><td>Yes</td><td>-</td><td>Yes</td></tr>
+            <tr><td>TPA Details</td><td>-</td><td>-</td><td>Yes</td><td>Yes</td><td>-</td></tr>
+            <tr><td>Daily Hospital Cash Benefit Amount</td><td>-</td><td>-</td><td>Yes (DHCB Benefit)</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>ICU Benefit</td><td>-</td><td>-</td><td>Yes</td><td>Yes (ICU Recuperation Benefit)</td><td>-</td></tr>
+            <tr><td>Pre-authorization approval taken</td><td>-</td><td>-</td><td>-</td><td>Yes</td><td>-</td></tr>
+            <tr><td>Medical History/Health History</td><td>-</td><td>-</td><td>-</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Occupation</td><td>-</td><td>-</td><td>-</td><td>-</td><td>Yes</td></tr>
+            <tr><td>PAN Number</td><td>-</td><td>-</td><td>-</td><td>-</td><td>Yes</td></tr>
+            <tr><td>CKYC Number</td><td>-</td><td>-</td><td>-</td><td>-</td><td>Yes</td></tr>
+            <tr><td>Policy Term Opted</td><td>-</td><td>-</td><td>-</td><td>-</td><td>Yes</td></tr>
+            <tr><td>Policy Type</td><td>-</td><td>-</td><td>-</td><td>-</td><td>Yes</td></tr>
+            <tr><td>Mode of Payment</td><td>-</td><td>-</td><td>-</td><td>-</td><td>Yes</td></tr>
+            <tr><td>Bank Account Details</td><td>-</td><td>-</td><td>-</td><td>Yes</td><td>Yes</td></tr>
+        </tbody>
+    </table>
+
+    <h2>4. Health Claim Form - Claim Fields Comparison</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Claim Field</th>
+                <th>Bajaj Allianz</th>
+                <th>Tata AIG</th>
+                <th>Cholamandalam MS General Insurance Company Limited</th>
+                <th>India First Life</th>
+                <th>SBI General Insurance</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td>Policy No</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Sl. No/Certificate No</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Company TPA ID No</td><td>Yes</td><td>Yes</td><td>-</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Name (Primary Insured)</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Address (Primary Insured)</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>City (Primary Insured)</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>State (Primary Insured)</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Pin Code (Primary Insured)</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Phone No (Primary Insured)</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Email ID (Primary Insured)</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Currently covered by any other Mediclaim / Health Insurance</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Date of commencement of first insurance without break</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>If yes, company name (Other Insurance)</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Policy No (Other Insurance)</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Sum Insured (Other Insurance)</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Have you been hospitalized in the last four years since inception of the contract?</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Date (Hospitalization in last 4 years)</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Diagnosis (Hospitalization in last 4 years)</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Previously covered by any other Mediclaim / Health Insurance</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Name of the Patient (Hospitalized Person)</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Health ID card no of the Patient</td><td>Yes</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+            <tr><td>Gender (Hospitalized Person)</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Age (Hospitalized Person)</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Relationship of Primary insured (Hospitalized Person)</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Occupation (Hospitalized Person)</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Address (if different from above) (Hospitalized Person)</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Name of Hospital where Admitted</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Room Category occupied</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Hospitalisation due to (Injury, Illness, Maternity)</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Date of Injury/Date Disease first detected/Date of Delivery</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Date of admission</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Time (Admission)</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Date of Discharge</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Time (Discharge)</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Name of treating doctor</td><td>Yes</td><td>Yes</td><td>Yes</td><td>-</td><td>Yes</td></tr>
+            <tr><td>Diagnosis (Hospitalization)</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>If injury give cause (Self-inflicted, RTA, Substance Abuse/Alcohol Consumption)</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>If Medico legal</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Reported to police</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>MLC report and Police FIR attached</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>System of Medicine</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Pre-Hospitalisation Expenses</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Hospitalisation Expenses</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Post-Hospitalisation Expenses</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Health checkup cost</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Ambulance Charges</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Others (code) (Claim Expenses)</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Total (Claim Expenses)</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Pre-Hospitalisation period</td><td>Yes</td><td>-</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Post Hospitalisation period</td><td>Yes</td><td>-</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Claim for Domiciliary Hospitalisation</td><td>Yes</td><td>-</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Hospital Daily Cash</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Surgical Cash</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Critical illness Benefit</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Convalescence</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Pre/Post hospitalisation (Lump sum benefit)</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Others lump sum benefit</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Total (Lump sum benefit)</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Claim Form Duly Signed</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Original Hospital Breakup Bill</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Operation Theater Notes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>-</td><td>Yes</td></tr>
+            <tr><td>Copy of claim intimation</td><td>Yes</td><td>-</td><td>-</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Original Hospital Main Bill</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Original Hospital Bill Payment Receipt</td><td>Yes</td><td>Yes</td><td>Yes</td><td>-</td><td>Yes</td></tr>
+            <tr><td>Original Hospital Discharge Summary</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Pharmacy Bill</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>ECG</td><td>Yes</td><td>Yes</td><td>Yes</td><td>-</td><td>Yes</td></tr>
+            <tr><td>Original Doctor's Prescriptions</td><td>Yes</td><td>Yes</td><td>-</td><td>-</td><td>Yes</td></tr>
+            <tr><td>Original Doctors request for investigation reports</td><td>Yes</td><td>Yes</td><td>Yes</td><td>-</td><td>Yes</td></tr>
+            <tr><td>Investigation Reports (X-Ray, CT, etc.)</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Cancelled blank cheque leaf with payee name printed</td><td>Yes</td><td>Yes</td><td>-</td><td>-</td><td>-</td></tr>
+            <tr><td>Name of the Account Holder (Bank)</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Account no (Bank)</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Bank Name</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Branch Name & Address</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Account Type (Bank)</td><td>Yes</td><td>-</td><td>-</td><td>Yes</td><td>-</td></tr>
+            <tr><td>MICR No</td><td>Yes</td><td>-</td><td>-</td><td>-</td><td>Yes</td></tr>
+            <tr><td>IFSC Code</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>PAN</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>CKYC No</td><td>Yes</td><td>Yes</td><td>-</td><td>-</td><td>-</td></tr>
+            <tr><td>Hospital ID</td><td>Yes</td><td>Yes</td><td>Yes</td><td>-</td><td>Yes</td></tr>
+            <tr><td>Type of hospital (Network/Non Network)</td><td>Yes</td><td>Yes</td><td>Yes</td><td>-</td><td>Yes</td></tr>
+            <tr><td>Registration No with State Code (Hospital)</td><td>Yes</td><td>Yes</td><td>Yes</td><td>-</td><td>Yes</td></tr>
+            <tr><td>Phone No (Hospital)</td><td>Yes</td><td>Yes</td><td>Yes</td><td>-</td><td>Yes</td></tr>
+            <tr><td>IP registration Number</td><td>Yes</td><td>Yes</td><td>Yes</td><td>-</td><td>Yes</td></tr>
+            <tr><td>Date of birth (Patient)</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Type of Admission (Emergency, Planned, Day Care, Maternity)</td><td>Yes</td><td>Yes</td><td>Yes</td><td>-</td><td>Yes</td></tr>
+            <tr><td>If Maternity: Date of delivery</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Gravida Status</td><td>Yes</td><td>Yes</td><td>Yes</td><td>-</td><td>Yes</td></tr>
+            <tr><td>Status at time of discharge</td><td>Yes</td><td>Yes</td><td>Yes</td><td>-</td><td>Yes</td></tr>
+            <tr><td>Total claimed Amount</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>ICD 10 Codes (Primary Diagnosis, Additional Diagnosis, Co-morbidities)</td><td>Yes</td><td>Yes</td><td>Yes</td><td>-</td><td>Yes</td></tr>
+            <tr><td>ICD 10 PCS (Procedure 1, 2, 3)</td><td>Yes</td><td>Yes</td><td>Yes</td><td>-</td><td>Yes</td></tr>
+            <tr><td>Details of Procedure</td><td>Yes</td><td>Yes</td><td>Yes</td><td>-</td><td>Yes</td></tr>
+            <tr><td>Pre-Authorization Obtained</td><td>Yes</td><td>Yes</td><td>Yes</td><td>-</td><td>Yes</td></tr>
+            <tr><td>Pre-Authorization Number</td><td>Yes</td><td>Yes</td><td>Yes</td><td>-</td><td>Yes</td></tr>
+            <tr><td>If authorization by network hospital not obtained, give reason</td><td>Yes</td><td>Yes</td><td>Yes</td><td>-</td><td>Yes</td></tr>
+            <tr><td>Address of hospital (Non-Network)</td><td>Yes</td><td>Yes</td><td>Yes</td><td>-</td><td>Yes</td></tr>
+            <tr><td>Number of Inpatient beds</td><td>Yes</td><td>Yes</td><td>Yes</td><td>-</td><td>Yes</td></tr>
+            <tr><td>Facilities available in hospital (OT, ICU, Others)</td><td>Yes</td><td>Yes</td><td>Yes</td><td>-</td><td>Yes</td></tr>
+            <tr><td>Signature and Seal of the Hospital Authority</td><td>Yes</td><td>Yes</td><td>Yes</td><td>-</td><td>Yes</td></tr>
+            <tr><td>Date (Declaration)</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Place (Declaration)</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>UHID Intimation Number</td><td>-</td><td>Yes</td><td>-</td><td>-</td><td>-</td></tr>
+            <tr><td>Medical records and consultation papers prior to hospitalization</td><td>-</td><td>Yes</td><td>-</td><td>-</td><td>-</td></tr>
+            <tr><td>Any previously approved settlement letter from other insurance</td><td>-</td><td>Yes</td><td>-</td><td>-</td><td>-</td></tr>
+            <tr><td>Hospital Registration Certificate</td><td>-</td><td>Yes</td><td>-</td><td>-</td><td>-</td></tr>
+            <tr><td>KYC Application Type</td><td>-</td><td>Yes</td><td>-</td><td>-</td><td>-</td></tr>
+            <tr><td>Proof of Identity and Address</td><td>-</td><td>Yes</td><td>-</td><td>-</td><td>-</td></tr>
+            <tr><td>External aids</td><td>-</td><td>-</td><td>Yes</td><td>-</td><td>-</td></tr>
+            <tr><td>OPD dental</td><td>-</td><td>-</td><td>Yes</td><td>-</td><td>-</td></tr>
+            <tr><td>OPD</td><td>-</td><td>-</td><td>Yes</td><td>-</td><td>-</td></tr>
+            <tr><td>Eye check up cost</td><td>-</td><td>-</td><td>Yes</td><td>-</td><td>-</td></tr>
+            <tr><td>Minor accompaniment daily cash</td><td>-</td><td>-</td><td>Yes</td><td>-</td><td>-</td></tr>
+            <tr><td>Present ailment is a complication of PED?</td><td>-</td><td>-</td><td>Yes</td><td>-</td><td>-</td></tr>
+            <tr><td>Copy of the Pre-authorization approval letter</td><td>-</td><td>-</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Doctor's reference slip for investigation</td><td>-</td><td>-</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Copy of photo ID card of patient verified by hospital</td><td>-</td><td>-</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Original death summary from hospital where applicable</td><td>-</td><td>-</td><td>Yes</td><td>-</td><td>Yes</td></tr>
+            <tr><td>Copy of Bank pass book/ statement of policyholder's personal account</td><td>-</td><td>-</td><td>-</td><td>Yes</td><td>-</td></tr>
+        </tbody>
+    </table>
+
+    <h2>5. Supertop Up Claim Form - Claim Fields Comparison</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Claim Field</th>
+                <th>Aditya Birla Health Insurance Co. Limited</th>
+                <th>PARAMOUNT HEALTH SERVICES & INSURANCE TPA PRIVATE LIMITED/United India</th>
+                <th>HDFC ERGO</th>
+                <th>Manipal Cigna</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td>Policyholder Name</td><td>Yes</td><td>Yes (Insured Name)</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Policy Number</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Insured Person Name</td><td>Yes</td><td>Yes (Patient Name)</td><td>Yes (Insured Person Hospitalised Name)</td><td>Yes (Insured Person Hospitalised Name)</td></tr>
+            <tr><td>Utilization of funds under HealthReturns™</td><td>Yes</td><td>-</td><td>-</td><td>-</td></tr>
+            <tr><td>Bill details (Sr. No., Insured Person, Bill No., Date, Issued by, Towards, Amount)</td><td>Yes</td><td>Yes (Schedule of Hospitalisation expenses incurred)</td><td>Yes (BILLS ENCLOSED)</td><td>Yes (DETAILS OF BILLS ENCLOSED)</td></tr>
+            <tr><td>Bank Name</td><td>Yes</td><td>-</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Bank Branch</td><td>Yes</td><td>-</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Bank Account Number</td><td>Yes</td><td>-</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>IFSC Code</td><td>Yes</td><td>-</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>MICR Code</td><td>Yes</td><td>-</td><td>-</td><td>-</td></tr>
+            <tr><td>Signature of Policyholder / Insured Person</td><td>Yes</td><td>Yes</td><td>-</td><td>Yes</td></tr>
+            <tr><td>Place (Declaration)</td><td>Yes</td><td>Yes</td><td>-</td><td>Yes</td></tr>
+            <tr><td>Date (Declaration)</td><td>Yes</td><td>Yes</td><td>-</td><td>Yes</td></tr>
+            <tr><td>Document Check List</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Name of the Hospital</td><td>Yes</td><td>-</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Hospital ID</td><td>Yes</td><td>-</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Type of Hospital (Network / Non Network)</td><td>Yes</td><td>-</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Name of the treating doctor</td><td>Yes</td><td>-</td><td>-</td><td>Yes</td></tr>
+            <tr><td>Qualification (Doctor)</td><td>Yes</td><td>-</td><td>-</td><td>Yes</td></tr>
+            <tr><td>Registration No. with State Code (Doctor)</td><td>Yes</td><td>-</td><td>-</td><td>Yes</td></tr>
+            <tr><td>Phone No. (Doctor)</td><td>Yes</td><td>-</td><td>-</td><td>Yes</td></tr>
+            <tr><td>IP Registration Number</td><td>Yes</td><td>-</td><td>-</td><td>Yes</td></tr>
+            <tr><td>Gender (Patient)</td><td>Yes</td><td>-</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Age (Patient)</td><td>Yes</td><td>-</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Date of Birth (Patient)</td><td>Yes</td><td>-</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Date of Admission</td><td>Yes</td><td>-</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Time (Admission)</td><td>Yes</td><td>-</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Date of Discharge</td><td>Yes</td><td>-</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Time (Discharge)</td><td>Yes</td><td>-</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Type of Admission (Emergency / Planned / Day Care / Maternity)</td><td>Yes</td><td>-</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>If Maternity: Date of Delivery</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Gravida Status</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Status at time of discharge</td><td>Yes</td><td>-</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Total claimed amount</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Primary Diagnosis (ICD 10 Codes, Description)</td><td>Yes</td><td>-</td><td>-</td><td>Yes</td></tr>
+            <tr><td>Additional Diagnosis (ICD 10 Codes, Description)</td><td>Yes</td><td>-</td><td>-</td><td>Yes</td></tr>
+            <tr><td>Co-morbidities (ICD 10 Codes, Description)</td><td>Yes</td><td>-</td><td>-</td><td>Yes</td></tr>
+            <tr><td>Procedure 1 (ICD 10 PCS, Description)</td><td>Yes</td><td>-</td><td>-</td><td>Yes</td></tr>
+            <tr><td>Procedure 2 (ICD 10 PCS, Description)</td><td>Yes</td><td>-</td><td>-</td><td>Yes</td></tr>
+            <tr><td>Procedure 3 (ICD 10 PCS, Description)</td><td>Yes</td><td>-</td><td>-</td><td>Yes</td></tr>
+            <tr><td>Details of Procedure</td><td>Yes</td><td>-</td><td>-</td><td>Yes</td></tr>
+            <tr><td>Pre-authorization obtained</td><td>Yes</td><td>-</td><td>-</td><td>Yes</td></tr>
+            <tr><td>Pre-authorization Number</td><td>Yes</td><td>-</td><td>-</td><td>Yes</td></tr>
+            <tr><td>If authorization by network hospital not obtained, give reason</td><td>Yes</td><td>-</td><td>-</td><td>Yes</td></tr>
+            <tr><td>Hospitalization due to Injury</td><td>Yes</td><td>-</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>If Yes, give cause (Self-Inflicted / RTA / Substance abuse / alcohol consumption)</td><td>Yes</td><td>-</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>If Injury due Substance abuse/alcohol consumption, Test Conducted to establish this</td><td>Yes</td><td>-</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>If Medico legal</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Reported to Police</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>FIR no</td><td>Yes</td><td>Yes</td><td>-</td><td>Yes</td></tr>
+            <tr><td>If not reported to police give reason</td><td>Yes</td><td>-</td><td>-</td><td>Yes</td></tr>
+            <tr><td>Address of the Hospital (Non-Network)</td><td>Yes</td><td>-</td><td>-</td><td>Yes</td></tr>
+            <tr><td>Phone No. (Non-Network Hospital)</td><td>Yes</td><td>-</td><td>-</td><td>Yes</td></tr>
+            <tr><td>Registration No. with State Code (Non-Network Hospital)</td><td>Yes</td><td>-</td><td>-</td><td>Yes</td></tr>
+            <tr><td>Hospital PAN</td><td>Yes</td><td>-</td><td>-</td><td>Yes</td></tr>
+            <tr><td>Number of Inpatient beds</td><td>Yes</td><td>-</td><td>-</td><td>Yes</td></tr>
+            <tr><td>Facilities available in hospital (OT, ICU, Others)</td><td>Yes</td><td>-</td><td>-</td><td>Yes</td></tr>
+            <tr><td>Signature and Seal of the Hospital Authority</td><td>Yes</td><td>-</td><td>-</td><td>Yes</td></tr>
+            <tr><td>Name of Insurer (PHS)</td><td>-</td><td>Yes</td><td>-</td><td>-</td></tr>
+            <tr><td>PHS ID</td><td>-</td><td>Yes</td><td>-</td><td>-</td></tr>
+            <tr><td>Employee No (PHS)</td><td>-</td><td>Yes</td><td>-</td><td>-</td></tr>
+            <tr><td>Mobile No (PHS)</td><td>-</td><td>Yes</td><td>-</td><td>-</td></tr>
+            <tr><td>Phone (STD) (PHS)</td><td>-</td><td>Yes</td><td>-</td><td>-</td></tr>
+            <tr><td>Name of Corporate (PHS)</td><td>-</td><td>Yes</td><td>-</td><td>-</td></tr>
+            <tr><td>Type of Claim (PHS)</td><td>-</td><td>Yes</td><td>-</td><td>-</td></tr>
+            <tr><td>E-Mail ID of primary insured (PHS)</td><td>-</td><td>Yes</td><td>-</td><td>-</td></tr>
+            <tr><td>Original copy of Obstetric history (Maternity Claim)</td><td>-</td><td>Yes</td><td>-</td><td>-</td></tr>
+            <tr><td>Original Sonography Report (Maternity Claim)</td><td>-</td><td>Yes</td><td>-</td><td>-</td></tr>
+            <tr><td>Original A-Scan Report (Cataract Claim)</td><td>-</td><td>Yes</td><td>-</td><td>-</td></tr>
+            <tr><td>Copy of the First Information Report (FIR) / Medico-Legal Certificate (MLC)</td><td>-</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Medical certificate from a doctor (Critical Illness)</td><td>-</td><td>Yes</td><td>-</td><td>-</td></tr>
+            <tr><td>Previous hospitalization details</td><td>-</td><td>Yes</td><td>-</td><td>-</td></tr>
+            <tr><td>Pre-hospitalisation Expenses</td><td>-</td><td>-</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Hospitalisation Expenses</td><td>-</td><td>-</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Post-hospitalisation Expenses</td><td>-</td><td>-</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Total Claimed Amount</td><td>-</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Insurance History (Currently covered by other Mediclaim/Health Insurance)</td><td>-</td><td>-</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Date of commencement of first insurance</td><td>-</td><td>-</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Other insurer’s company name</td><td>-</td><td>-</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Sum Insured (Other Insurance)</td><td>-</td><td>-</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Hospitalization in last 4 years</td><td>-</td><td>-</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Date & Diagnosis (Hospitalization in last 4 years)</td><td>-</td><td>-</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Previously covered by any Mediclaim/Health Insurance</td><td>-</td><td>-</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Previous insurer’s name</td><td>-</td><td>-</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Address (Insured Person Hospitalised)</td><td>-</td><td>-</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Occupation (Insured Person Hospitalised)</td><td>-</td><td>-</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Room category (Hospitalisation Details)</td><td>-</td><td>-</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Date of Injury/First Diagnosis/Delivery</td><td>-</td><td>-</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Claim Documents Submitted (Checklist)</td><td>-</td><td>-</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>PAN No.</td><td>-</td><td>-</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>Pre-Hospitalization Expenses (Lump sum)</td><td>-</td><td>-</td><td>-</td><td>Yes</td></tr>
+            <tr><td>Hospital Daily Cash</td><td>-</td><td>-</td><td>-</td><td>Yes</td></tr>
+            <tr><td>Surgical Cash</td><td>-</td><td>-</td><td>-</td><td>Yes</td></tr>
+            <tr><td>Critical illness Benefit</td><td>-</td><td>-</td><td>-</td><td>Yes</td></tr>
+            <tr><td>Convalescence</td><td>-</td><td>-</td><td>-</td><td>Yes</td></tr>
+            <tr><td>Pre/Post-Hospitalization Lump sum Benefit</td><td>-</td><td>-</td><td>-</td><td>Yes</td></tr>
+            <tr><td>Other Lump sum Benefit</td><td>-</td><td>-</td><td>-</td><td>Yes</td></tr>
+            <tr><td>System of Medicine</td><td>-</td><td>-</td><td>Yes</td><td>Yes</td></tr>
+            <tr><td>System of Medicine (Allopathic/ AYUSH)</td><td>-</td><td>-</td><td>-</td><td>Yes</td></tr>
+            <tr><td>Procedure 4 (ICD 10 PCS)</td><td>-</td><td>-</td><td>-</td><td>Yes</td></tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
